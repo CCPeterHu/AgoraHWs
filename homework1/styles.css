@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    width: 95%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+#img-container{
+    max-width: 9%;
+    max-height: 9%;
+}
+
+/* #flexContainer{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+} */
+
+#centralContainer{
+    background-color: olive;
+    /* justify-content: center; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.left-pane{
+    background-color: #099dfd;
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+#squareContainer{
+    display: flex;
+    margin: 0 auto;
+}
+
+#illustration{
+    margin: 70px auto 20px;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+#bottomText{
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 130px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.right-pane{
+    /* margin: auto; */
+    background-color: pink;
+    width: 50%;
+    float: right;
+    height: ;
+}
+
+.loginContainer{
+    margin-top: 20vh;
+    /* text-align: center; */
+}
+
+#loginText{
+    text-align: center;
+    margin-top: 19%;
+    color: black;
+    font-size: 1.25rem;
+    /* text-emphasis-color: blue; */
+}
+
+input {
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+    border: 2px solid #099dfd;
+    font-size: 1.25em;
+  }
+
+.submitButton {
+    background-color: #099dfd;
+    color: white;
+    border: none;
+    margin-left: 25px;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    font-size: 1.25em;
+    margin-top: 20px;
+}
+
+
